@@ -5,3 +5,22 @@ body {
   background-image: url('./sw-bg.jpg');
   background-size: cover;
 }
+
+.character {
+  display: flex;
+  max-width: 550px;
+  margin: 20px auto;
+  border: 2px solid black;
+  background-color: lightgrey;
+  justify-content: center;
+
+  
+}
+.character:hover {
+  transform: scale(1.5)
+}
+
+p{
+  padding-left: 10px;
+  text-align: center;
+}
